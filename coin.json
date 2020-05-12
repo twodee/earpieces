@@ -1,0 +1,59 @@
+{
+   "coin" : {
+      "amplitudes" : [
+         {
+            "interpolant" : "linear",
+            "name" : "start",
+            "start" : {
+               "time" : 0,
+               "value" : 0.298
+            }
+         },
+         {
+            "interpolant" : "linear",
+            "name" : "middle",
+            "start" : {
+               "time" : 0.063,
+               "value" : 1
+            }
+         },
+         {
+            "interpolant" : "constant",
+            "name" : "end",
+            "start" : {
+               "time" : 1,
+               "value" : 0
+            }
+         }
+      ],
+      "duration" : 0.2,
+      "frequencies" : [
+         {
+            "interpolant" : "constant",
+            "name" : "start",
+            "start" : {
+               "time" : 0,
+               "value" : 987.77
+            }
+         },
+         {
+            "interpolant" : "constant",
+            "name" : "?",
+            "start" : {
+               "time" : 0.23,
+               "value" : 1318.51
+            }
+         },
+         {
+            "interpolant" : "constant",
+            "name" : "end",
+            "start" : {
+               "time" : 1,
+               "value" : 1318.77
+            }
+         }
+      ],
+      "rate" : 22050,
+      "waveType" : "triangle"
+   }
+}

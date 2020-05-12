@@ -1,0 +1,86 @@
+{
+   "lewistest" : {
+      "amplitudes" : [
+         {
+            "interpolant" : "linear",
+            "name" : "start",
+            "start" : {
+               "time" : 0,
+               "value" : 0
+            }
+         },
+         {
+            "interpolant" : "linear",
+            "name" : "middle",
+            "start" : {
+               "time" : 0.468,
+               "value" : 1
+            }
+         },
+         {
+            "interpolant" : "constant",
+            "name" : "end",
+            "start" : {
+               "time" : 1,
+               "value" : 0
+            }
+         }
+      ],
+      "duration" : 3,
+      "frequencies" : [
+         {
+            "control" : {
+               "time" : 0.238,
+               "value" : 137.5
+            },
+            "interpolant" : "quadratic",
+            "name" : "start",
+            "oscillation" : {
+               "amplitude" : 250,
+               "cycleCount" : 3,
+               "flip" : true
+            },
+            "start" : {
+               "time" : 0,
+               "value" : 860.465
+            }
+         },
+         {
+            "interpolant" : "linear",
+            "name" : "?",
+            "oscillation" : {
+               "amplitude" : 100,
+               "cycleCount" : 3,
+               "flip" : true
+            },
+            "start" : {
+               "time" : 0.511,
+               "value" : 2.907
+            }
+         },
+         {
+            "interpolant" : "linear",
+            "name" : "?",
+            "oscillation" : {
+               "amplitude" : 200,
+               "cycleCount" : 3,
+               "flip" : false
+            },
+            "start" : {
+               "time" : 0.65,
+               "value" : 741.279
+            }
+         },
+         {
+            "interpolant" : "constant",
+            "name" : "end",
+            "start" : {
+               "time" : 1,
+               "value" : 258.721
+            }
+         }
+      ],
+      "rate" : 22050,
+      "waveType" : "sine"
+   }
+}
